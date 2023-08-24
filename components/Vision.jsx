@@ -19,7 +19,7 @@ const Vision = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/vision.svg"
+          src="/vision.png"
           alt="notre vision"
           className="w-[70%] h-auto rounded-3xl object-contain"
         />
