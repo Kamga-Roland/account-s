@@ -14,10 +14,10 @@ const Phone = () => {
 
     emailjs
       .sendForm(
-        'service_ochsk64',
-        'template_cvxozu8',
+        'service_uhhn85b',
+        'template_8xxxaz4',
         form.current,
-        'AKfglL-TipTiwJi-i',
+        'ToMUuCnskH4VLsW11',
       )
       .then(
         (result) => {
