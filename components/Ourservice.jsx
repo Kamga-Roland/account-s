@@ -16,7 +16,7 @@ const Ourservice = () => (
     >
       <div className="flex mb-10 lg:flex-row flex-col-reverse gap-8">
         <motion.div
-          variants={fadeIn('right', 'tween', 0.4, 2)}
+          variants={fadeIn('right', 'linear', 0.2, 1)}
           className="flex-[0.95] flex justify-center flex-col"
         >
           <TitleText
@@ -47,7 +47,7 @@ const Ourservice = () => (
         </motion.div>
 
         <motion.div
-          variants={fadeIn('left', 'tween', 0.4, 2)}
+          variants={fadeIn('left', 'linear', 0.2, 1)}
           className="flex-[0.95] flex justify-center flex-col"
         >
           <img
@@ -78,7 +78,7 @@ const Ourservice = () => (
         />
       </motion.div>
       <motion.div
-        variants={fadeIn('left', 'tween', 0.4, 2)}
+        variants={fadeIn('left', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TitleText
@@ -118,7 +118,7 @@ const Ourservice = () => (
       className={`${styles.innerWidth} mx-auto mb-[80px] flex lg:flex-row flex-col-reverse gap-8`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TitleText
@@ -153,7 +153,7 @@ const Ourservice = () => (
       </motion.div>
 
       <motion.div
-        variants={fadeIn('left', 'tween', 0.4, 2)}
+        variants={fadeIn('left', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
@@ -171,7 +171,7 @@ const Ourservice = () => (
       className={`${styles.innerWidth} mx-auto flex mb-[80px] lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
@@ -181,7 +181,7 @@ const Ourservice = () => (
         />
       </motion.div>
       <motion.div
-        variants={fadeIn('left', 'tween', 0.4, 2)}
+        variants={fadeIn('left', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TitleText
@@ -222,7 +222,7 @@ const Ourservice = () => (
       className={`${styles.innerWidth} mx-auto mb-[80px] flex lg:flex-row flex-col-reverse gap-8`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TitleText
@@ -255,7 +255,7 @@ const Ourservice = () => (
       </motion.div>
 
       <motion.div
-        variants={fadeIn('left', 'tween', 0.4, 2)}
+        variants={fadeIn('left', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
@@ -273,7 +273,7 @@ const Ourservice = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
@@ -283,7 +283,7 @@ const Ourservice = () => (
         />
       </motion.div>
       <motion.div
-        variants={fadeIn('left', 'tween', 0.4, 2)}
+        variants={fadeIn('left', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TitleText
