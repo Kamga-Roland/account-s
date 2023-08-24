@@ -51,7 +51,7 @@ const Ourservice = () => (
           className="flex-[0.95] flex justify-center flex-col"
         >
           <img
-            src="/rh.svg"
+            src="/rh.png"
             alt="resource humaine"
             className="w-[90%] h-auto rounded-3xl object-contain"
           />
@@ -72,7 +72,7 @@ const Ourservice = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/gad.svg"
+          src="/gad.png"
           alt="gestion a distance"
           className="w-[90%] h-auto rounded-3xl object-contain"
         />
@@ -157,7 +157,7 @@ const Ourservice = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/net.svg"
+          src="/net.png"
           alt="gestion a distance"
           className="w-[90%] h-auto rounded-3xl object-contain"
         />
@@ -175,7 +175,7 @@ const Ourservice = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/gf.svg"
+          src="/gf.png"
           alt="gestion ficancier"
           className="w-[90%] h-auto rounded-3xl object-contain"
         />
@@ -259,7 +259,7 @@ const Ourservice = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/cei.svg"
+          src="/cei.png"
           alt="conseille en investissement"
           className="w-[100%] h-auto rounded-3xl object-contain"
         />
@@ -277,7 +277,7 @@ const Ourservice = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/mec.svg"
+          src="/mec.png"
           alt="marketing et communication"
           className="w-[90%] h-auto border-r-2 rounded-3xl object-contain"
         />
