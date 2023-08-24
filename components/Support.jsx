@@ -21,7 +21,7 @@ const Support = () => (
       className={`${styles.innerWidth} mx-auto gap-6`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.2, 1)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className=" justify-end gradient-05 mb-10 sm:p-8 p-4 rounded-[32px] border-[1px] shadow-[#210080] border-r-4  border-white shadow-xl relative"
       >
         <div className="feedback-gradient" />
@@ -52,7 +52,7 @@ const Support = () => (
       </motion.div>
       <motion.div
         id="apercu"
-        variants={fadeIn('right', 'tween', 0.2, 1)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="hidden justify-end gradient-05 mb-10 sm:p-8 p-4 relative"
       >
         <div className="text-center font-bold text-[18px] md:text-[25px] text-[#6a79ff] mb-20">
