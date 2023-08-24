@@ -1,23 +1,3 @@
-export const navVariants = {
-  hidden: {
-    opacity: 0,
-    y: -50,
-    transition: {
-      type: 'spring',
-      stiffness: 300,
-      damping: 140,
-    },
-  },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      type: 'spring',
-      stiffness: 80,
-      delay: 1,
-    },
-  },
-};
 
 export const slideIn = (direction, type, delay, duration) => ({
   hidden: {
@@ -56,7 +36,7 @@ export const textVariant = (delay) => ({
     opacity: 1,
     transition: {
       type: 'spring',
-      duration: 1.25,
+      duration: 1,
       delay,
     },
   },
@@ -68,7 +48,7 @@ export const textContainer = {
   },
   show: (i = 1) => ({
     opacity: 1,
-    transition: { staggerChildren: 0.1, delayChildren: i * 0.1 },
+    transition: { staggerChildren: 0.06, delayChildren: i * 0.06 },
   }),
 };
 
@@ -81,7 +61,7 @@ export const textVariant2 = {
     opacity: 1,
     y: 0,
     transition: {
-      type: 'tween',
+      type: 'linear',
       ease: 'easeIn',
     },
   },
@@ -115,7 +95,7 @@ export const zoomIn = (delay, duration) => ({
     scale: 1,
     opacity: 1,
     transition: {
-      type: 'tween',
+      type: 'linear',
       delay,
       duration,
       ease: 'easeOut',
@@ -138,7 +118,7 @@ export const footerVariants = {
     y: 0,
     transition: {
       type: 'spring',
-      stiffness: 80,
+      stiffness: 50,
       delay: 0.5,
     },
   },
