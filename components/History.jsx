@@ -24,7 +24,7 @@ const History = () => (
     >
       <div className="flex mb-10 lg:flex-row flex-col-reverse gap-8">
         <motion.div
-          variants={fadeIn('right', 'tween', 0.4, 2)}
+          variants={fadeIn('right', 'linear', 0.2, 1)}
           className="flex-[0.95] flex justify-center flex-col"
         >
           <TitleText title={<><span className="text-[#6a79ff]">La Merveilleuse</span> Histoire de Account's</>} />
@@ -45,7 +45,7 @@ const History = () => (
         </motion.div>
 
         <motion.div
-          variants={fadeIn('left', 'tween', 0.4, 2)}
+          variants={fadeIn('left', 'linear', 0.2, 1)}
           className="flex-[0.95] my-10 md:mb-0 flex justify-center flex-col"
         >
           <img
@@ -57,7 +57,7 @@ const History = () => (
       </div>
       <motion.div
         id="notrehist"
-        variants={fadeIn('right', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="hidden justify-center gradient-06"
       >
         <div className="mt-[5px] text-justify text-[18px]">
