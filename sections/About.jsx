@@ -15,7 +15,7 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-2`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
@@ -25,7 +25,7 @@ const Hero = () => (
         />
       </motion.div>
       <motion.div
-        variants={fadeIn('left', 'tween', 0.4, 2)}
+        variants={fadeIn('left', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TitleText title={<>Plus besoin de <span className="text-[#6a79ff]">Laisser un Proche</span> gérer vos Affaires au pays.</>} />
