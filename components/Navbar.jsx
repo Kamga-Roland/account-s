@@ -60,7 +60,7 @@ const Navbar = () => {
             <button
               onClick={toggleMenu}
               type="button"
-              className="ml-10 inline-flex items-center justify-center p-2 rounded-md text-blue-900 hover:text-white hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-900 focus:ring-white"
+              className="ml-10 inline-flex items-center justify-center p-1 rounded-md text-blue-900 hover:text-white hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-900 focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
@@ -82,7 +82,7 @@ const Navbar = () => {
         <ul className="text-[24px] py-10 space-y-12 text-white space-x-6">
           <li>
             <a
-              className="text-white hover:text-pink-500"
+              className=" text-white hover:text-pink-500"
               href="/"
             >
               Accueil
@@ -90,7 +90,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              className="text-white hover:text-pink-500"
+              className=" text-white hover:text-pink-500"
               href="/about"
             >
               Qui sommes-nous ?
