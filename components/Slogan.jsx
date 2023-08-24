@@ -29,7 +29,7 @@ const Slogan = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/fertiliseur.svg"
+          src="/fertiliseur.png"
           alt="get-started"
           className="w-[80%] h-auto rounded-3xl object-contain "
         />
