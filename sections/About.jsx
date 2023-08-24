@@ -19,7 +19,7 @@ const Hero = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/proche.svg"
+          src="/proche.png"
           alt="gestion a distance"
           className="w-[80%] h-auto rounded-3xl object-contain"
         />
