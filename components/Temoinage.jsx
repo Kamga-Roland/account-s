@@ -1,8 +1,8 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import { TitleText } from "./CustomTexts";
-import styles from "../styles";
-import { staggerContainer, fadeIn } from "../utils/motion";
+import { TitleText } from './CustomTexts';
+import styles from '../styles';
+import { staggerContainer, fadeIn } from '../utils/motion';
 
 const Temoinage = () => (
   <section className={`${styles.paddings} bg-white relative`}>
@@ -16,18 +16,13 @@ const Temoinage = () => (
       <div className="text-center mb-20">
         <TitleText
           title={
-            <>
-              <span className="text-[#6a79ff]">
-                Plusieurs entrepreneurs de la diaspora
-              </span>
-              , Nous font déjà Confiance !
-            </>
+            <><span className="text-[#6a79ff]">Plusieurs entrepreneurs de la diaspora</span>, Nous font déjà Confiance !</>
           }
         />
       </div>
       <motion.div
         className="flex mb-10 lg:flex-row flex-col gap-8"
-        variants={fadeIn("right", "tween", 0.2, 1)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
       >
         <div>
           <div className="flex mb-10 lg:flex-row flex-col gap-8">
