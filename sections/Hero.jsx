@@ -1,6 +1,4 @@
-
 import { motion } from 'framer-motion';
-import YouTube from 'react-youtube';
 import styles from '../styles';
 import { TitleText } from '../components';
 import { staggerContainer, fadeIn } from '../utils/motion';
@@ -33,14 +31,21 @@ const Hero = () => (
         variants={fadeIn('left', 'tween', 0.4, 1)}
         className="flex-[0.95] mx-auto object-contain flex justify-center flex-col"
       >
-        <YouTube
-          videoId="NyiIZP6pwhk"
-          className="youtube"
-          style={{
-            borderRadius: '16px', width: '100%', height: 'auto',
-          }}
-          onReady={(event) => event.target.pauseVideo()}
-        />
+        <div className="object-contain justify-center flex-col" style={{ opacity: '1' }}>
+          <div
+            className="youtube"
+          >
+            <iframe
+              frameBorder="0"
+              allowfullscreen="1"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              title="account's agency"
+              src="https://www.youtube.com/embed/NyiIZP6pwhk?enablejsapi=1&amp;origin=https%3A%2F%2Faccount-s-xrm8.vercel.app&amp;widgetid=1"
+              id="widget2"
+              className="youtube-iframe"
+            />
+          </div>
+        </div>
       </motion.div>
     </motion.div>
   </section>
