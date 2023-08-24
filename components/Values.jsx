@@ -19,7 +19,7 @@ const Values = () => (
       </div>
       <div className="flex mb-10 lg:flex-row flex-col-reverse gap-8">
         <motion.div
-          variants={fadeIn('right', 'tween', 0.4, 2)}
+          variants={fadeIn('right', 'linear', 0.2, 1)}
           className="flex-[0.95] flex justify-center flex-col"
         >
           <TitleText title={<>Confiance :</>} />
@@ -37,7 +37,7 @@ const Values = () => (
         </motion.div>
 
         <motion.div
-          variants={fadeIn('left', 'tween', 0.4, 2)}
+          variants={fadeIn('right', 'linear', 0.2, 1)}
           className="flex-[0.95] flex justify-center flex-col"
         >
           <img
@@ -56,7 +56,7 @@ const Values = () => (
       className={`${styles.innerWidth} mx-auto mb-10 flex lg:flex-row flex-col gap-2`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
@@ -66,7 +66,7 @@ const Values = () => (
         />
       </motion.div>
       <motion.div
-        variants={fadeIn('left', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="flex-[0.95] mb-10 flex justify-center flex-col"
       >
         <TitleText title={<>Collaboration :</>} />
@@ -87,7 +87,7 @@ const Values = () => (
       className={`${styles.innerWidth} mx-auto mb-10 flex lg:flex-row flex-col-reverse gap-8`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="flex-[0.95] mb-10 flex justify-center flex-col"
       >
         <TitleText title={<>Réalité :</>} />
@@ -104,7 +104,7 @@ const Values = () => (
       </motion.div>
 
       <motion.div
-        variants={fadeIn('left', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
@@ -122,7 +122,7 @@ const Values = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-2`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
@@ -132,7 +132,7 @@ const Values = () => (
         />
       </motion.div>
       <motion.div
-        variants={fadeIn('left', 'tween', 0.4, 2)}
+        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TitleText title={<>Exactitude :</>} />
