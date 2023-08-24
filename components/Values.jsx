@@ -41,7 +41,7 @@ const Values = () => (
           className="flex-[0.95] flex justify-center flex-col"
         >
           <img
-            src="/confiance.svg"
+            src="/confiance.png"
             alt="confiance"
             className="w-[90%] h-auto border-r-2 rounded-3xl object-contain"
           />
@@ -60,7 +60,7 @@ const Values = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/collaboration.svg"
+          src="/collaboration.png"
           alt="confiance"
           className="w-[70%] h-auto rounded-3xl object-contain"
         />
@@ -108,7 +108,7 @@ const Values = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/réalité.svg"
+          src="/réalité.png"
           alt="réalité"
           className="w-[80%] h-auto rounded-3xl object-contain"
         />
@@ -126,7 +126,7 @@ const Values = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/exactitude.svg"
+          src="/exactitude.png"
           alt="confiance"
           className="w-[80%] h-auto rounded-3xl object-contain"
         />
