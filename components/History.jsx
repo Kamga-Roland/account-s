@@ -49,8 +49,8 @@ const History = () => (
           className="flex-[0.95] my-10 md:mb-0 flex justify-center flex-col"
         >
           <img
-            src="/qsn.svg"
-            alt="confiance"
+            src="/qsn.png"
+            alt="qui somme nous"
             className="w-[80%] h-auto rounded-3xl object-contain"
           />
         </motion.div>
