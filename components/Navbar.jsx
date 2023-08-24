@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="mx-auto ">
         <div className="flex h-20 justify-center">
           <div className="flex py-6 justify-center items-center px-5 md:mr-20 mr-10">
-            <img src="/logo.svg" alt="Logo" className="h-30 w-36 mr-10 " />
+            <img src="/logo.png" alt="Logo" className="h-30 w-36 mr-10 " />
             <ul className="hidden lg:flex space-x-6 px-auto lg:space-x-10">
               <li>
                 <a
@@ -60,7 +60,7 @@ const Navbar = () => {
             <button
               onClick={toggleMenu}
               type="button"
-              className="ml-10 inline-flex items-center justify-center p-1 rounded-md text-blue-900 hover:text-white hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-900 focus:ring-white"
+              className="ml-10 inline-flex py-0 items-center justify-center p-1 rounded-md text-blue-900 hover:text-white hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-900 focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
