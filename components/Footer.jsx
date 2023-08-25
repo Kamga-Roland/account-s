@@ -41,7 +41,7 @@ const Footer = () => (
           <br /> <a className="cursor-pointer" href="/about">Nos Valeurs</a>
           <br /> <a className="cursor-pointer" href="/about">Notre Slogan</a>
         </p><br />
-        <a href="/contact" className="p-2 text-[14px] font-bold rounded-2xl bg-pink-500 text-white">Contactez-nous</a>
+        <a href="/contact" className="p-2 text-[14px] hover:bg-pink-400 font-bold rounded-2xl bg-pink-500 text-white">Contactez-nous</a>
       </div>
       <div className="w-2/6 hidden lg:block items-center justify-center flex-wrap">
         <h2 className="font-bold text-white mb-3">Nos Services</h2>
@@ -73,7 +73,7 @@ const Footer = () => (
         <p className="text-white mt-3 lg:mt-0 opacity-50">Conditions d'utilisation</p>
       </div>
       <div>
-        <p className="text-white mt-3 lg:mt-0 opacity-50">Copyright....</p>
+        <p className="text-white mt-3 lg:mt-0 opacity-50">Copyright 2023</p>
         <p className="text-white mt-3 lg:mt-0 opacity-50">All rights reserved.</p>
       </div>
       <div>
