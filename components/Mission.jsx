@@ -15,7 +15,7 @@ const Mission = () => (
       className={`${styles.innerWidth} mx-auto`}
     >
       <div className="text-center mb-10">
-        <TitleText title={<>Nos <span className="text-[#6a79ff]">Missions</span></>} />
+        <TitleText title={<>Nos <span className="text-[#6a79ff]">missions</span></>} />
       </div>
       <div className=" flex lg:flex-row flex-col gap-8">
         <motion.div
@@ -60,7 +60,7 @@ const Mission = () => (
             className="w-30 h-20 mb-10 px-auto"
           />
           <div>
-            <h4 className="font-bold text-justify sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
+            <h4 className="font-bold text-justify sm:leading-[30.32px] leading-[36.32px] text-[#6a79ff]">
               Booster les business des entrepreneurs de la diaspora au pays tout
               en allégeant leur charge de travail
             </h4>
