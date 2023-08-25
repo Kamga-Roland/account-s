@@ -14,7 +14,7 @@ const Footer = () => (
   >
     <div className="flex flex-row gap-8 justify-center ">
       <div className="w-5/6 lg:w-2/6 text-justify items-center justify-center flex-wrap">
-        <img src="/logo.svg" alt="logo" className="w-40 h-auto mb-3" />
+        <img src="/logoF.png" alt="logo" className="w-40 h-auto mb-3" />
         <p className="text-white opacity-40">
           Account's est une startup Fintech dédiée aux esprits ambitieux de la
           diaspora africaine. Notre solution innovante offre une maîtrise totale
@@ -54,17 +54,17 @@ const Footer = () => (
           <br /> Marketing et communication
         </p>
       </div>
-      <div className="w-1/6 hidden lg:block items-center justify-center flex-wrap">
-        <h2 className="font-bold text-white mb-3">Nos Partenaires</h2>
-        <div className="flex">
-          <img src="/50AFC.png" alt="50AFC" className="w-20 h-20" />
-          <img src="/AFROPN.png" alt="AFROPN" className="w-20 h-10 my-5" />
+      <div className="w-1/6 hidden lg:block rounded-lg items-center justify-center flex-wrap">
+        <h2 className="font-bold text-white text-center mb-3">Nos Partenaires</h2>
+        <div className="flex gap-4">
+          <img src="ea.png" alt="cinaf" className="w-20 h-20" />
+          <img src="/ea5.png" alt="50AFC" className="w-20 h-20" />
+        </div><br />
+        <div className="flex gap-4">
+          <img src="/ea2.png" alt="mbc" className="w-20 h-20" />
+          <img src="/ea4.png" alt="nadosso" className="w-20 h-20" />
         </div>
-        <div className="flex">
-          <img src="/MbC.png" alt="mbc" className="w-20 h-20" />
-          <img src="/NADOSSO.png" alt="nadosso" className="w-20 h-20" />
-        </div>
-        <img src="cinaf.png" alt="cinaf" className="w-10 h-10" />
+        <img src="/ea3.png" alt="AFROPN" className="w-40 h-20 my-5" />
       </div>
     </div>
     <div className="md:flex items-center text-center gap-8 justify-center mt-10">
