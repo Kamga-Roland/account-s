@@ -21,7 +21,7 @@ const Ourservice = () => (
         >
           <TitleText
             title={
-              <>1. <span className="text-[#6a79ff]">Recherche et Gestion</span> des Talents </>
+              <>1. <span className="text-[#6a79ff]">Recherche et gestion</span> des talents </>
             }
           />
           <div className="mt-[38px] text-[18px]">
@@ -83,7 +83,7 @@ const Ourservice = () => (
       >
         <TitleText
           title={
-            <>2. <span className="text-[#6a79ff]">Gestion à Distance</span> et Supervision </>
+            <>2. <span className="text-[#6a79ff]">Gestion à distance</span> et supervision </>
           }
         />
         <div className="mt-[38px] text-[18px]">
@@ -123,7 +123,7 @@ const Ourservice = () => (
       >
         <TitleText
           title={
-            <>3. <span className="text-[#6a79ff]">Networking et</span> Facilitation des Relations </>
+            <>3. <span className="text-[#6a79ff]">Networking et</span> facilitation des relations </>
           }
         />
         <div className="mt-[38px] text-[18px]">
@@ -186,7 +186,7 @@ const Ourservice = () => (
       >
         <TitleText
           title={
-            <>4. <span className="text-[#6a79ff]">Gestion</span> Financière </>
+            <>4. <span className="text-[#6a79ff]">Gestion</span> financière </>
           }
         />
         <div className="mt-[38px] text-[18px]">
@@ -227,7 +227,7 @@ const Ourservice = () => (
       >
         <TitleText
           title={
-            <>5. <span className="text-[#6a79ff]">Conseil en Investissement</span> et Création d'entités. </>
+            <>5. <span className="text-[#6a79ff]">Conseil en investissement</span> et création d'entités. </>
           }
         />
         <div className="mt-[38px] text-[18px]">
