@@ -26,19 +26,19 @@ const World = () => (
         className="relative mt-[120px] flex w-full h-[200px]"
       >
         <ul className="flex mx-auto space-x-3">
-          <li className="w-[30%] h-[50%]">
+          <li className="w-[20%] mt-5 mr-[8%] h-[50%]">
             <img src="/cinaf.png" className=" w-full h-full object-contain" />
           </li>
-          <li className="w-[30%] h-[50%]">
+          <li className="w-[70%] h-[70%]">
             <img src="/AFROPN.png" className=" w-full h-full object-contain" />
           </li>
-          <li className="w-[30%] h-[50%]">
+          <li className="w-[70%] h-[70%]">
             <img src="/50AFC.png" className=" w-full h-full object-contain" />
           </li>
-          <li className="w-[30%] h-[50%]">
+          <li className="w-[70%] h-[70%]">
             <img src="/MbC.png" className=" w-full h-full object-contain" />
           </li>
-          <li className="w-[30%] h-[50%]">
+          <li className="w-[25%] mt-4 h-[50%]">
             <img src="/NADOSSO.png" className=" w-full h-full object-contain" />
           </li>
         </ul>
