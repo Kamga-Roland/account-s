@@ -44,7 +44,7 @@ const Support = () => (
           id="btn"
           type="submit"
           onClick={Discover}
-          className="text-center mx-[15%] font-bold lg:mx-[35%] py-2 px-5 m-10 rounded-3xl text-white bg-pink-500 text-[11px] md:text-[15px]"
+          className="text-center mx-[15%] font-bold lg:mx-[35%] font-bold py-2 px-5 m-10 rounded-3xl text-white bg-pink-500 text-[11px] md:text-[15px]"
         >
           Découvrez la team Account's
         </button>
