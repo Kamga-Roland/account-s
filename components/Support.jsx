@@ -22,16 +22,15 @@ const Support = () => (
     >
       <motion.div
         variants={fadeIn('right', 'linear', 0.2, 1)}
-        className=" justify-end gradient-05 mb-10 sm:p-8 p-4 rounded-[32px] border-[1px] shadow-[#210080] border-r-4  border-white shadow-xl relative"
+        className=" justify-end mb-10 sm:p-8 p-4 rounded-[32px] border-[1px] shadow-[#210080] border-r-4  border-white shadow-xl relative"
       >
-        <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[22px] text-justify text-[18px] sm:leading-[40.32px] leading-[36.32px] text-blue-800">
             <span className="text-[60px]">" </span> Depuis que j'ai acquis la
             faculté de réflexion, j'ai toujours nourri cette quête: comment
             pourrais-je influencer positivement ma communauté en mettant en
             lumière mes compétences et mon expertise ?  Account's incarne
-            parfaitement ce que je crois pouvoir offrir au monde. <span className="text-[60px]">" </span>
+            parfaitement ce que je crois pouvoir offrir au monde. <span className="text-[30px]">" </span>
             <br />
             <span className="text-bold text-[14px] md:text-[18px] text-black">
               Rodney Fotsing, CEO de Account's
@@ -45,7 +44,7 @@ const Support = () => (
           id="btn"
           type="submit"
           onClick={Discover}
-          className="text-center mx-[15%] lg:mx-[35%] p-3 m-10 rounded-xl text-white bg-pink-500 text-[11px] md:text-[15px]"
+          className="text-center mx-[15%] lg:mx-[35%] py-2 px-5 m-10 rounded-3xl text-white bg-pink-500 text-[11px] md:text-[15px]"
         >
           découvrez la team Account's
         </button>
