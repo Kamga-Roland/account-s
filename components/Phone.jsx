@@ -52,14 +52,14 @@ const Phone = () => {
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="p-5 rounded-2xl shadow-2xl shadow-[#6a79ff] justify-center"
+              className="p-5 rounded-2xl shadow-lg shadow-[#6a79ff] justify-center"
             >
               <div className="lg:flex">
                 <label className="m-5 text-[#6a79ff]" htmlFor="name">
                   Nom
                   <input
                     placeholder="Kenfack pol"
-                    className="h-10 p-5 w-[100%] border-r-4 border-2 shadow-[#6a79ff] shadow-lg rounded-3xl "
+                    className="h-10 p-5 w-[100%] border-r-4 border-2 shadow-[#6a79ff] shadow-md rounded-3xl "
                     id="name"
                     type="text"
                     name="user_name"
@@ -70,7 +70,7 @@ const Phone = () => {
                   Email
                   <input
                     placeholder="kenfackpol@gmail.com"
-                    className="h-10 p-5 w-[100%] border-r-4 border-2 shadow-[#6a79ff] shadow-lg rounded-3xl "
+                    className="h-10 p-5 w-[100%] border-r-4 border-2 shadow-[#6a79ff] shadow-md rounded-3xl "
                     id="email"
                     type="email"
                     name="user_email"
@@ -83,7 +83,7 @@ const Phone = () => {
                   Téléphone
                   <input
                     placeholder="+237 678..."
-                    className="h-10 p-5 w-[100%] border-r-4 border-2 shadow-[#6a79ff] shadow-lg rounded-3xl "
+                    className="h-10 p-5 w-[100%] border-r-4 border-2 shadow-[#6a79ff] shadow-md rounded-3xl "
                     id="number"
                     type="number"
                     required
@@ -93,7 +93,7 @@ const Phone = () => {
                   Sujet
                   <input
                     placeholder="Demande d'assistan.."
-                    className="h-10 p-5 w-[100%] border-r-4 border-2 shadow-[#6a79ff] shadow-lg rounded-3xl "
+                    className="h-10 p-5 w-[100%] border-r-4 border-2 shadow-[#6a79ff] shadow-md rounded-3xl "
                     id="subject"
                     type="text"
                     name="subject"
@@ -106,7 +106,7 @@ const Phone = () => {
                 <br />
                 <textarea
                   placeholder="votre msg.."
-                  className="h-20 p-5 w-[100%] lg:w-[70%] border-r-4 border-2 shadow-[#6a79ff] shadow-lg rounded-3xl "
+                  className="h-20 p-5 w-[100%] lg:w-[70%] border-r-4 border-2 shadow-[#6a79ff] shadow-md rounded-3xl "
                   id="message"
                   type="text"
                   name="message"
