@@ -29,7 +29,7 @@ const Mission = () => (
               className="w-30 h-20 mb-10 px-[30%]"
             />
             <h4 className=" font-bold text-justify sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
-              Redonner confiance et assurance aux entrepreneurs internationaux désirant
+              Redonner confiance et assurance aux entrepreneurs internationaux, désirant
               investir dans leur pays.
             </h4>
           </div>
@@ -46,7 +46,7 @@ const Mission = () => (
           <div>
             <h4 className="font-bold text-justify sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
               Garantir une meilleure traçabilité aux investisseurs de la
-              diaspora sur leurs business au pays
+              diaspora, sur leurs business au pays.
             </h4>
           </div>
         </motion.div>
@@ -61,8 +61,8 @@ const Mission = () => (
           />
           <div>
             <h4 className="font-bold text-justify sm:leading-[30.32px] leading-[36.32px] text-[#6a79ff]">
-              Booster les business des entrepreneurs de la diaspora au pays tout
-              en allégeant leur charge de travail
+              Booster les business des entrepreneurs de la diaspora au pays, tout
+              en allégeant leur charge de travail.
             </h4>
           </div>
         </motion.div>
