@@ -29,8 +29,8 @@ const Mission = () => (
               className="w-30 h-20 mb-10 px-[30%]"
             />
             <h4 className=" font-bold text-justify sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
-              Redonner confiance aux entrepreneurs internationaux désirant
-              investir au pays
+              Redonner confiance et assurance aux entrepreneurs internationaux désirant
+              investir dans leur pays.
             </h4>
           </div>
         </motion.div>
