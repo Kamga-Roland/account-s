@@ -24,7 +24,7 @@ const Slogan = () => (
         >
           <TitleText title={<>Fertiliseur de <span className="text-[#6a79ff]">l'entrepreneuriat africain</span>, pour la diaspora.</>} />
           <div className="mt-[20px] text-justify text-[18px]">
-            Account's incarne une plateforme innovante et engagée. Notre objectif est de fertiliser les aspirations entrepreneuriales des membres de la diaspora africaine en facilitant leurs investissements et en renforçant leur impact dans leur pays d'origine.
+            Account's incarne une plateforme innovante et engagée. Notre objectif est de fertiliser les aspirations entrepreneuriales des membres de la diaspora africaine, en facilitant leurs investissements et en renforçant leur impact dans leur pays d'origine.
           </div>
         </motion.div>
 
