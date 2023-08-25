@@ -138,7 +138,7 @@ const Values = () => (
         <TitleText title={<>Exactitude :</>} />
         <div className="mt-[20px] text-justify text-[18px]">
           L'exactitude est une vertu incontournable chez Account's. Nous avons
-          cœur de garantir une précision méticuleuse dans chaque aspect de
+          à cœur de garantir une précision méticuleuse dans chaque aspect de
           notre travail. De la gestion des données à la mise en œuvre de nos
           solutions, chaque étape est minutieusement examinée pour garantir une
           conformité rigoureuse. Notre engagement envers l'exactitude se traduit
