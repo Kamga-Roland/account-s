@@ -16,7 +16,7 @@ const Temoinage = () => (
       <div className="text-center mb-20">
         <TitleText
           title={
-            <><span className="text-[#6a79ff]">Plusieurs entrepreneurs de la diaspora</span>, Nous font déjà Confiance !</>
+            <><span className="text-[#6a79ff]">Plusieurs entrepreneurs de la diaspora</span>, nous font déjà confiance !</>
           }
         />
       </div>
