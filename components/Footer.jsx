@@ -19,7 +19,7 @@ const Footer = () => (
           Account's est une startup de la Fintech dédiée aux esprits ambitieux de la
           diaspora africaine. Notre solution innovante offre une maîtrise totale
           et une surveillance continue de vos activités commerciales en Afrique,
-          sans contraintes géographiques. Notre mission, Répondre à votre soif
+          sans contraintes géographiques. Notre mission, répondre à votre soif
           de traçabilité et de confiance, tout en libérant le potentiel
           entrepreneurial africain.
         </p>
