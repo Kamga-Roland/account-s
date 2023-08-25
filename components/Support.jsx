@@ -32,7 +32,7 @@ const Support = () => (
             lumière mes compétences et mon expertise ?  Account's incarne
             parfaitement ce que je crois pouvoir offrir au monde.
             <br />
-            <span className="text-bold text-[14px] md:text-[20px] font-bold text-black">
+            <span className="text-bold text-[14px] md:text-[22px] font-bold text-black">
               Rodney Fotsing, CEO de Account's
             </span>
           </h4>
@@ -44,9 +44,9 @@ const Support = () => (
           id="btn"
           type="submit"
           onClick={Discover}
-          className="text-center mx-[15%] lg:mx-[35%] py-2 px-5 m-10 rounded-3xl text-white bg-pink-500 text-[11px] md:text-[15px]"
+          className="text-center mx-[15%] font-bold lg:mx-[35%] py-2 px-5 m-10 rounded-3xl text-white bg-pink-500 text-[11px] md:text-[15px]"
         >
-          découvrez la team Account's
+          Découvrez la team Account's
         </button>
       </motion.div>
       <motion.div
