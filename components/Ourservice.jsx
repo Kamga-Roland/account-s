@@ -24,7 +24,7 @@ const Ourservice = () => (
               <>1. <span className="text-[#6a79ff]">Recherche et gestion</span> des talents </>
             }
           />
-          <div className="mt-[38px] text-[18px]">
+          <div className="mt-[20px] text-[18px]">
             <h2 className="text-[#6a79ff]">Description :</h2>
             <p className="text-justify">
               Analyse des besoins en compétences des clients, élaboration et
@@ -86,7 +86,7 @@ const Ourservice = () => (
             <>2. <span className="text-[#6a79ff]">Gestion à distance</span> et supervision </>
           }
         />
-        <div className="mt-[38px] text-[18px]">
+        <div className="mt-[20px] text-[18px]">
           <h2 className="text-[#6a79ff]">Description :</h2>
           <p className="text-justify">
             Mise en œuvre d'une solution novatrice pour permettre aux
@@ -126,7 +126,7 @@ const Ourservice = () => (
             <>3. <span className="text-[#6a79ff]">Networking et</span> facilitation des relations </>
           }
         />
-        <div className="mt-[38px] text-[18px]">
+        <div className="mt-[20px] text-[18px]">
           <h2 className="text-[#6a79ff]">Description :</h2>
           <p className="text-justify">
             Grâce à notre vaste réseau de partenaires locaux et internationaux,
@@ -189,7 +189,7 @@ const Ourservice = () => (
             <>4. <span className="text-[#6a79ff]">Gestion</span> financière </>
           }
         />
-        <div className="mt-[38px] text-[18px]">
+        <div className="mt-[20px] text-[18px]">
           <h2 className="text-[#6a79ff]">Description :</h2>
           <p className="text-justify">
             Notre soutien aux entrepreneurs englobe : l'amélioration de leur
@@ -230,7 +230,7 @@ const Ourservice = () => (
             <>5. <span className="text-[#6a79ff]">Conseil en investissement</span> et création d'entités. </>
           }
         />
-        <div className="mt-[38px] text-[18px]">
+        <div className="mt-[20px] text-[18px]">
           <h2 className="text-[#6a79ff]">Description :</h2>
           <p className="text-justify">
             À travers des entretiens réguliers, notre équipe se familiarise avec
@@ -291,7 +291,7 @@ const Ourservice = () => (
             <>6. <span className="text-[#6a79ff]">Marketing et</span> communication. </>
           }
         />
-        <div className="mt-[38px] text-[18px]">
+        <div className="mt-[20px] text-[18px]">
           <h2 className="text-[#6a79ff]">Description :</h2>
           <p className="text-justify">
             Permettez-nous de créer et mettre en œuvre vos plans marketing et
