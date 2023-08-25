@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
+import { TitleText } from './CustomTexts';
 
 const Phone = () => {
   const form = useRef();
@@ -39,6 +40,10 @@ const Phone = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mt-20 mx-auto`}
       >
+        <div className="text-center mb-10">
+          <TitleText title={<>Nous <span className="text-[#6a79ff]">Contacter</span></>} />
+          <p className="mt-3">Une question ? Besoin d'informations complémentaires ? <br /> Remplissez ce formulaire, notre équipe vous contacte dans les plus brefs délais.</p>
+        </div>
         <div className="flex mt-10 lg:flex-row flex-col gap-8">
           <motion.div
             variants={fadeIn('right', 'tween', 0.2, 1)}
@@ -75,7 +80,7 @@ const Phone = () => {
               </div>
               <div className="lg:flex">
                 <label className="m-5 text-[#6a79ff]" htmlFor="number">
-                  Telephone
+                  Téléphone
                   <input
                     placeholder="+237 678..."
                     className="h-10 p-5 w-[100%] border-r-4 border-2 shadow-[#6a79ff] shadow-lg rounded-3xl "
