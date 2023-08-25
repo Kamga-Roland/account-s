@@ -16,19 +16,19 @@ const Footer = () => (
       <div className="w-5/6 lg:w-2/6 text-justify items-center justify-center flex-wrap">
         <img src="/logoF.png" alt="logo" className="w-40 h-auto mb-3" />
         <p className="text-white opacity-40">
-          Account's est une startup Fintech dédiée aux esprits ambitieux de la
+          Account's est une startup de la Fintech dédiée aux esprits ambitieux de la
           diaspora africaine. Notre solution innovante offre une maîtrise totale
           et une surveillance continue de vos activités commerciales en Afrique,
-          sans contraintes géographiques. Notre mission ? Répondre à votre soif
+          sans contraintes géographiques. Notre mission, Répondre à votre soif
           de traçabilité et de confiance, tout en libérant le potentiel
           entrepreneurial africain.
         </p>
       </div>
       <div className="w-1/6 hidden lg:block items-center justify-center flex-wrap">
-        <h2 className="font-bold text-white mb-3">Accueil</h2>
+        <h2 className="font-bold text-white mb-3">Notre solution</h2>
         <p className="text-white opacity-40">
-          Collecte des données, Analyse dynamique, Production des rapports,
-          Contrôle permanent, Pourquoi investir en Afrique ?
+          Collecte des données,<br /> Analyse dynamique,<br /> Production des rapports,<br />
+          Contrôle permanent,<br /> Pourquoi investir en Afrique ?
         </p>
       </div>
       <div className="w-1/6 hidden lg:block items-center justify-center flex-wrap">
@@ -40,7 +40,8 @@ const Footer = () => (
           <br /> Notre Mission
           <br /> Nos Valeurs
           <br /> Notre Slogan
-        </p>
+        </p><br />
+        <a href="/contact" className="p-2 text-[14px] rounded-2xl bg-pink-500 text-white">Contactez-nous</a>
       </div>
       <div className="w-2/6 hidden lg:block items-center justify-center flex-wrap">
         <h2 className="font-bold text-white mb-3">Nos Services</h2>
@@ -73,7 +74,7 @@ const Footer = () => (
         <p className="text-white mt-3 lg:mt-0 opacity-50">Conditions d'utilisation</p>
       </div>
       <div>
-        <p className="text-white mt-3 lg:mt-0 opacity-50">Copyright....</p>
+        <p className="text-white mt-3 lg:mt-0 opacity-50">Copyright 2023</p>
         <p className="text-white mt-3 lg:mt-0 opacity-50">All rights reserved.</p>
       </div>
       <div>
