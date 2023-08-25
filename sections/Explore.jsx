@@ -60,7 +60,7 @@ const Explore = () => (
           <div className="bg-white" />
           <div>
             <h6 className="font-bold sm:text-[21px] mb-5 text-[16px] sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
-              <span className="px-2 rounded-[50%] bg-[#210080] text-white">2</span> Analyse Dynamique
+              <span className="px-2 rounded-[50%] bg-[#210080] text-white">2</span> Analyse dynamique
             </h6>
             <p className="text-justify">
               Notre solution à l'aide de sa composante IA, traite les données
@@ -104,7 +104,7 @@ const Explore = () => (
           <div className="bg-white" />
           <div>
             <h6 className="font-bold sm:text-[21px] text-[16px] mb-5 sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
-              <span className="px-2 rounded-[50%] bg-[#210080] text-white">3</span> Production de Rapports et Tableaux de bords
+              <span className="px-2 rounded-[50%] bg-[#210080] text-white">3</span> Production de rapports et tableaux de bords
             </h6>
             <p className="text-justify">
               Les informations obtenues à l'issu du processus, sont organisées
