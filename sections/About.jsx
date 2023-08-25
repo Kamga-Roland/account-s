@@ -30,7 +30,7 @@ const Hero = () => (
       >
         <TitleText title={<>Plus besoin de <span className="text-[#6a79ff]">laisser un proche</span> gérer vos affaires au pays.</>} />
         <div className="mt-[20px] text-justify text-[18px]">
-          Account's vous accompagne dans la gestion de votre business à distance , grâce à ses équipes
+          Account's vous accompagne dans la gestion de votre business à distance, grâce à ses équipes
           compétentes, son réseau de partenaires locaux et internationaux et sa solution 100% digitalisée,
           fiable et complétement sécurisée.
         </div>
