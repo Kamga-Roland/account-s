@@ -59,7 +59,7 @@ const WhatsNew = () => (
         className="flex-[0.95] mb-10 flex justify-center flex-col"
       >
         <TitleText
-          title={<>Pourquoi devriez-vous<span className="text-[#6a79ff]">investir en Afrique ?</span></>}
+          title={<>Pourquoi devriez-vous<span className="text-[#6a79ff]"> investir en Afrique ?</span></>}
         />
         <div>
           <div className={`${styles.flexCenter} mt-5 flex-row`}>
