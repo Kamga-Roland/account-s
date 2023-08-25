@@ -43,7 +43,7 @@ const Values = () => (
           <img
             src="/confiance.png"
             alt="confiance"
-            className="w-[90%] h-auto border-r-2 rounded-3xl object-contain"
+            className="w-[90%] self-center h-auto border-r-2 rounded-3xl object-contain"
           />
         </motion.div>
       </div><br /><br />
@@ -61,13 +61,13 @@ const Values = () => (
       >
         <img
           src="/collaboration.png"
-          alt="confiance"
-          className="w-[70%] h-auto rounded-3xl object-contain"
+          alt="collaboration"
+          className="w-[70%] lg:w-[60%] self-center lg:ml-20 h-auto rounded-3xl object-contain"
         />
       </motion.div>
       <motion.div
         variants={fadeIn('right', 'linear', 0.2, 1)}
-        className="flex-[0.95] mb-10 flex justify-center flex-col"
+        className="flex-[0.95] mt-6 mb-10 flex justify-center flex-col"
       >
         <TitleText title={<>Collaboration :</>} />
         <div className="mt-[20px] text-justify text-[18px]">
@@ -110,7 +110,7 @@ const Values = () => (
         <img
           src="/réalité.png"
           alt="réalité"
-          className="w-[80%] h-auto rounded-3xl object-contain"
+          className="w-[80%] h-auto self-center rounded-3xl object-contain"
         />
       </motion.div><br /><br />
     </motion.div>
@@ -127,8 +127,8 @@ const Values = () => (
       >
         <img
           src="/exactitude.png"
-          alt="confiance"
-          className="w-[80%] h-auto rounded-3xl object-contain"
+          alt="exactitude"
+          className="w-[80%] h-auto self-center rounded-3xl object-contain"
         />
       </motion.div>
       <motion.div
