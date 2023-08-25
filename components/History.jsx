@@ -27,7 +27,7 @@ const History = () => (
           variants={fadeIn('right', 'linear', 0.2, 1)}
           className="flex-[0.95] flex justify-center flex-col"
         >
-          <TitleText title={<><span className="text-[#6a79ff]">La Merveilleuse</span> Histoire de Account's</>} />
+          <TitleText title={<><span className="text-[#6a79ff]">La merveilleuse</span> histoire de Account's</>} />
           <div className="mt-[20px] text-justify text-[18px]">
             Plongez dans l'origine de notre initiative et faites connaissance
             avec l'équipe talentueuse derrière Account's. Vous y trouverez notre
