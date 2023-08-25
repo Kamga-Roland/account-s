@@ -16,7 +16,7 @@ const World = () => (
     >
       <TitleText
         title={
-          <>De <span className="text-[#6a79ff]">nombreuses entités</span> à travers le monde nous Font Confiance.</>
+          <>De <span className="text-[#6a79ff]">nombreuses entités</span> à travers le monde nous font confiance.</>
         }
         textStyles="text-center"
       />
