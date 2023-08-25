@@ -28,7 +28,7 @@ const Support = () => (
           <h4 className="font-bold sm:text-[22px] text-justify text-[18px] sm:leading-[40.32px] leading-[36.32px] text-blue-800">
             <span className="text-[60px]">" </span> Depuis que j'ai acquis la
             faculté de réflexion, j'ai toujours nourri cette quête : comment
-            pourrais-je influencer positivement ma communauté en mettant en
+            pourrais-je influencer positivement ma communauté, en mettant en
             lumière mes compétences et mon expertise ?  Account's incarne
             parfaitement ce que je crois pouvoir offrir au monde.
             <br />
