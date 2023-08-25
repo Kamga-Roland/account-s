@@ -69,7 +69,7 @@ const WhatsNew = () => (
               <p className="font-bold text-[20px] text-white">1</p>
             </div>
             <p className="font-extrabold flex-1 ml-[30px] text-[20px] text-[#210080] leading-[32.4px]">
-              Des opportunités de Croissance Économique
+              Des opportunités de croissance économique
             </p>
           </div>
           <button
@@ -95,7 +95,7 @@ const WhatsNew = () => (
               <p className="font-bold text-[20px] text-white">2</p>
             </div>
             <p className="font-extrabold flex-1 ml-[30px] text-[20px] text-[#210080] leading-[32.4px]">
-              Une diversité des Ressources Naturelles
+              Une diversité des ressources naturelles
             </p>
           </div>
           <button
@@ -164,7 +164,7 @@ const WhatsNew = () => (
               <p className="font-bold text-[20px] text-white">5</p>
             </div>
             <p className="font-extrabold flex-1 ml-[30px] text-[20px] text-[#210080] leading-[32.4px]">
-              Un Impact Social et Environnemental
+              Un impact social et environnemental
             </p>
           </div>
           <button
