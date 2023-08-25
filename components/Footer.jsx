@@ -27,19 +27,19 @@ const Footer = () => (
       <div className="w-1/6 hidden lg:block items-center justify-center flex-wrap">
         <h2 className="font-bold text-white mb-3">Notre solution</h2>
         <p className="text-white opacity-40">
-          Collecte des données,<br /> Analyse dynamique,<br /> Production des rapports,<br />
-          Contrôle permanent,<br /> Pourquoi investir en Afrique ?
+          <a className="cursor-pointer hover:text-pink-500" href="#disc">Collecte des données,</a><br /> <a className="cursor-pointer hover:text-pink-500" href="#disc">Analyse dynamique,</a><br /> <a className="cursor-pointer hover:text-pink-500" href="#disc">Production des rapports,</a><br />
+          <a className="cursor-pointer hover:text-pink-500" href="#disc">Contrôle permanent,</a><br /> <a className="cursor-pointer hover:text-pink-500" href="#disc">Pourquoi investir en Afrique ?</a>
         </p>
       </div>
       <div className="w-1/6 hidden lg:block items-center justify-center flex-wrap">
         <h2 className="font-bold text-white mb-3">Qui sommes-nous</h2>
         <p className="text-white opacity-40">
           <a className="cursor-pointer" href="/about"> Notre Histoire</a>
-          <br /> <a className="cursor-pointer" href="/about">Notre Team</a>
-          <br /> <a className="cursor-pointer" href="/about">Notre Vision</a>
-          <br /> <a className="cursor-pointer" href="/about">Notre Mission</a>
-          <br /> <a className="cursor-pointer" href="/about">Nos Valeurs</a>
-          <br /> <a className="cursor-pointer" href="/about">Notre Slogan</a>
+          <br /> <a className="cursor-pointer hover:text-pink-500" href="/about">Notre Team</a>
+          <br /> <a className="cursor-pointer hover:text-pink-500" href="/about">Notre Vision</a>
+          <br /> <a className="cursor-pointer hover:text-pink-500" href="/about">Notre Mission</a>
+          <br /> <a className="cursor-pointer hover:text-pink-500" href="/about">Nos Valeurs</a>
+          <br /> <a className="cursor-pointer hover:text-pink-500" href="/about">Notre Slogan</a>
         </p><br />
         <a href="/contact" className="p-2 text-[14px] hover:bg-pink-400 font-bold rounded-2xl bg-pink-500 text-white">Contactez-nous</a>
       </div>
@@ -47,11 +47,11 @@ const Footer = () => (
         <h2 className="font-bold text-white mb-3">Nos Services</h2>
         <p className="text-white opacity-40">
           <a className="cursor-pointer" href="/services">Recherche et gestion des talents</a>
-          <br /><a className="cursor-pointer" href="/services">Gestion à distance et supervision</a> 
-          <br /><a className="cursor-pointer" href="/services">Networking et facilitation des relations</a>
-          <br /><a className="cursor-pointer" href="/services">Gestion financière</a>
-          <br /> <a className="cursor-pointer" href="/services">Conseil en investissements et création d'entités</a>
-          <br /> <a className="cursor-pointer" href="/services">Marketing et communication</a>
+          <br /><a className="cursor-pointer hover:text-pink-500" href="/services">Gestion à distance et supervision</a> 
+          <br /><a className="cursor-pointer hover:text-pink-500" href="/services">Networking et facilitation des relations</a>
+          <br /><a className="cursor-pointer hover:text-pink-500" href="/services">Gestion financière</a>
+          <br /> <a className="cursor-pointer hover:text-pink-500" href="/services">Conseil en investissements et création d'entités</a>
+          <br /> <a className="cursor-pointer hover:text-pink-500" href="/services">Marketing et communication</a>
         </p>
       </div>
       <div className="w-1/6 hidden lg:block rounded-lg items-center justify-center flex-wrap">
