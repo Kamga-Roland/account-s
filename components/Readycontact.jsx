@@ -19,7 +19,7 @@ const Readycontact = () => (
         <p className="mt-10  text-[20px] mb-5">Contactez-nous dès maintenant.</p>
         <a
           href="/contact"
-          className="px-6 py-1 m-9 text-center cursor-pointer bg-pink-500 text-white rounded-lg"
+          className="px-6 py-1 m-9 text-center cursor-pointer bg-pink-500 text-white font-bold hover:bg-pink-400 rounded-2xl"
         >
           cliquez ici
         </a>
