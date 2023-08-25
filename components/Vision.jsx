@@ -30,7 +30,7 @@ const Vision = () => (
       >
         <TitleText title={<><span className="text-[#6a79ff]">La vision</span> qui est la nôtre</>} />
         <div className="mt-[20px] text-justify text-[18px]">
-          L'ambition d'Account's réside dans sa volonté de donner aux africains de la diaspora les moyens d'entreprendre dans n'importe quel pays africain, avec une simplicité maximale et la certitude qu'une équipe de confiance est sur place pour assurer une traçabilité optimale et renforcer la confiance.
+          L'ambition d'Account's réside dans sa volonté de donner aux africains de la diaspora, les moyens d'entreprendre dans n'importe quel pays africain, avec une simplicité maximale et la certitude qu'une équipe de confiance est sur place pour assurer une traçabilité optimale et renforcer la confiance.
         </div>
       </motion.div>
     </motion.div>
