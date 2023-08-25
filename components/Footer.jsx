@@ -10,7 +10,7 @@ const Footer = () => (
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} bg-[#0d012f] py-8 relative`}
+    className={`${styles.xPaddings} bg-[#0d012f] w-full py-8 relative`}
   >
     <div className="flex flex-row gap-8 justify-center ">
       <div className="w-5/6 lg:w-2/6 text-justify items-center justify-center flex-wrap">
@@ -34,25 +34,24 @@ const Footer = () => (
       <div className="w-1/6 hidden lg:block items-center justify-center flex-wrap">
         <h2 className="font-bold text-white mb-3">Qui sommes-nous</h2>
         <p className="text-white opacity-40">
-          Notre Histoire
-          <br /> Notre Team
-          <br /> Notre Vision
-          <br /> Notre Mission
-          <br /> Nos Valeurs
-          <br /> Notre Slogan
+          <a className="cursor-pointer" href="/about"> Notre Histoire</a>
+          <br /> <a className="cursor-pointer" href="/about">Notre Team</a>
+          <br /> <a className="cursor-pointer" href="/about">Notre Vision</a>
+          <br /> <a className="cursor-pointer" href="/about">Notre Mission</a>
+          <br /> <a className="cursor-pointer" href="/about">Nos Valeurs</a>
+          <br /> <a className="cursor-pointer" href="/about">Notre Slogan</a>
         </p><br />
-        <a href="/contact" className="p-2 text-[14px] rounded-2xl bg-pink-500 text-white">Contactez-nous</a>
+        <a href="/contact" className="p-2 text-[14px] font-bold rounded-2xl bg-pink-500 text-white">Contactez-nous</a>
       </div>
       <div className="w-2/6 hidden lg:block items-center justify-center flex-wrap">
         <h2 className="font-bold text-white mb-3">Nos Services</h2>
         <p className="text-white opacity-40">
-          Recherche et gestion des talents
-          <br /> Gestion à distance et supervision
-          <br />
-          Networking et facilitation des relations
-          <br /> Gestion financière
-          <br /> Conseil en investissements et création d'entités
-          <br /> Marketing et communication
+          <a className="cursor-pointer" href="/services">Recherche et gestion des talents</a>
+          <br /><a className="cursor-pointer" href="/services">Gestion à distance et supervision</a> 
+          <br /><a className="cursor-pointer" href="/services">Networking et facilitation des relations</a>
+          <br /><a className="cursor-pointer" href="/services">Gestion financière</a>
+          <br /> <a className="cursor-pointer" href="/services">Conseil en investissements et création d'entités</a>
+          <br /> <a className="cursor-pointer" href="/services">Marketing et communication</a>
         </p>
       </div>
       <div className="w-1/6 hidden lg:block rounded-lg items-center justify-center flex-wrap">
@@ -74,7 +73,7 @@ const Footer = () => (
         <p className="text-white mt-3 lg:mt-0 opacity-50">Conditions d'utilisation</p>
       </div>
       <div>
-        <p className="text-white mt-3 lg:mt-0 opacity-50">Copyright 2023</p>
+        <p className="text-white mt-3 lg:mt-0 opacity-50">Copyright....</p>
         <p className="text-white mt-3 lg:mt-0 opacity-50">All rights reserved.</p>
       </div>
       <div>
