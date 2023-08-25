@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="mx-auto ">
         <div className="flex h-20 justify-center">
           <div className="flex py-6 justify-center items-center px-5 md:mr-20 mr-10">
-            <img src="/Logo.png" alt="Logo" className="h-30 w-36 mr-10 " />
+            <img src="/Logo.png" alt="Logo" className="h-30 w-44 mr-10 " />
             <ul className="hidden lg:flex space-x-6 px-auto lg:space-x-10">
               <li>
                 <a
