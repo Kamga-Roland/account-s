@@ -59,7 +59,7 @@ const WhatsNew = () => (
         className="flex-[0.95] mb-10 flex justify-center flex-col"
       >
         <TitleText
-          title={<>Pourquoi devriez-vous<span className="text-[#6a79ff]"> investir en Afrique ?</span></>}
+          title={<>Pourquoi devriez-vous<span className="text-[#6a79ff]">investir en Afrique ?</span></>}
         />
         <div>
           <div className={`${styles.flexCenter} mt-5 flex-row`}>
@@ -76,7 +76,7 @@ const WhatsNew = () => (
             id="btn1"
             type="submit"
             onClick={showMore}
-            className=" text-pink-500 pb-[0.5px] ml-20 border-b-[1px] w-[40%] md:w-[23%] mt-1 text-center border-b-pink-500"
+            className=" text-pink-500 pb-[0.5px] underline ml-20  mt-1 text-center"
           >
             En savoir plus
           </button>
@@ -102,7 +102,7 @@ const WhatsNew = () => (
             id="btn2"
             type="submit"
             onClick={showMore1}
-            className=" text-pink-500 pb-[0.5px] ml-20 border-b-[1px] w-[40%] md:w-[23%] mt-1 text-center border-b-pink-500"
+            className=" text-pink-500 pb-[0.5px] underline ml-20  mt-1 text-center"
           >
             En savoir plus
           </button>
@@ -125,7 +125,7 @@ const WhatsNew = () => (
             id="btn3"
             type="submit"
             onClick={showMore2}
-            className=" text-pink-500 pb-[0.5px] ml-20 border-b-[1px] w-[40%] md:w-[23%] mt-1 text-center border-b-pink-500"
+            className=" text-pink-500 pb-[0.5px] underline ml-20  mt-1 text-center"
           >
             En savoir plus
           </button>
@@ -148,7 +148,7 @@ const WhatsNew = () => (
             id="btn4"
             type="submit"
             onClick={showMore3}
-            className=" text-pink-500 pb-[0.5px] ml-20 border-b-[1px] w-[40%] md:w-[23%] mt-1 text-center border-b-pink-500"
+            className=" text-pink-500 pb-[0.5px] underline ml-20  mt-1 text-center"
           >
             En savoir plus
           </button>
@@ -171,7 +171,7 @@ const WhatsNew = () => (
             id="btn5"
             type="submit"
             onClick={showMore4}
-            className=" text-pink-500 pb-[0.5px] ml-20 border-b-[1px] w-[40%] md:w-[23%] mt-1 text-center border-b-pink-500"
+            className=" text-pink-500 pb-[0.5px] underline ml-20  mt-1 text-center"
           >
             En savoir plus
           </button>
