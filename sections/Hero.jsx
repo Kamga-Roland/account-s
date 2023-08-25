@@ -17,7 +17,7 @@ const Hero = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TitleText
-          title={<><span className="text-[#6a79ff]">Booster Son Business</span> au pays n'a jamais été Aussi Simple !</>}
+          title={<><span className="text-[#6a79ff]">Booster son business</span> au pays n'a jamais été aussi simple !</>}
         />
         <div className="mt-[20px] text-justify text-[18px]">
           Entrepreneurs de la diaspora, donnez une nouvelle dimension à votre
