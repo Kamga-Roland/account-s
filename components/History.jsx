@@ -77,7 +77,7 @@ const History = () => (
           Avec beaucoup de travail et d'idées intelligentes, ils ont construit
           quelque chose de spécial. Ils ont créé une façon plus facile pour les
           gens de suivre leur business à distance. Et devinez quoi ? Cela marche
-          ! Les gens commencent à entreprendre sur le vieux continent en toute
+          ! Les gens commencent à entreprendre sur le continent en toute
           confiance.
           <br />
           <br />
