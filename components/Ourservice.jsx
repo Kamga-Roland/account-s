@@ -35,9 +35,8 @@ const Ourservice = () => (
           <br />
           <h2 className="text-[#6a79ff]">Défis :</h2>
           <div>
-            <p className="text-justify">
-              L'équipe locale actuelle souffre de problèmes d'incompétence et de
-              méfiance, entravant ainsi la fiabilité opérationnelle.
+           <p className="text-justify">
+              Dépasser les problèmes d'incompétences et stabiliser la confiance des equipes locales, afin de garantir la fiabilité opérationnelle.
             </p>
           </div>
           <br />
