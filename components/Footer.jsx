@@ -64,7 +64,7 @@ const Footer = () => (
           <img src="/ea2.png" alt="mbc" className="w-20 h-20" />
           <img src="/ea4.png" alt="nadosso" className="w-20 h-20" />
         </div>
-        <div className="w-50 h-30 my-5">
+        <div className="w-50 h-20 my-5">
           <img src="/ea3.png" alt="AFROPN" className="object-contain" />
         </div>
       </div>
