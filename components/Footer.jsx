@@ -34,7 +34,7 @@ const Footer = () => (
       <div className="w-1/6 hidden lg:block items-center justify-center flex-wrap">
         <h2 className="font-bold text-white mb-3">Qui sommes-nous</h2>
         <p className="text-white opacity-40">
-          <a className="cursor-pointer hover:text-pink-500"" href="/about"> Notre Histoire</a>
+          <a className="cursor-pointer hover:text-pink-500" href="/about"> Notre Histoire</a>
           <br /> <a className="cursor-pointer hover:text-pink-500" href="/about">Notre Team</a>
           <br /> <a className="cursor-pointer hover:text-pink-500" href="/about">Notre Vision</a>
           <br /> <a className="cursor-pointer hover:text-pink-500" href="/about">Notre Mission</a>
