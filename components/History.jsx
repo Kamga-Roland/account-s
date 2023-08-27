@@ -66,26 +66,24 @@ const History = () => (
           entreprendre en Afrique sans souci.
           <br />
           <br />
-          <h2 className="font-bold">Why ?</h2>
+           <h2 className="font-bold">Why ?</h2>
           Ils ont remarqué que beaucoup de gens hésitaient à investir ou
           entreprendre en Afrique à cause des problèmes de confiance et de
-          suivi. Alors, ils ont décidé de changer ça. c'est ainsi qu'est né
+          suivi. Alors, ils ont décidé de changer ça. C'est ainsi qu'est né
           "Account's"
           <br />
           <br />
           <h2 className="font-bold">How ?</h2>
           Avec beaucoup de travail et d'idées intelligentes, ils ont construit
           quelque chose de spécial. Ils ont créé une façon plus facile pour les
-          gens de suivre leur business à distance. Et devinez quoi ? Cela marche
+          gens de suivre leur business à distance, et devinez quoi ? Cela marche
           ! Les gens commencent à entreprendre sur le continent en toute
           confiance.
           <br />
-          <br />
-          Aujourd'hui, Account's n'est pas seulement une entreprise. C'est une
+          Aujourd'hui, Account's n'est pas seulement une entreprise, c'est une
           preuve que lorsqu'on résout un problème, des œuvres plus grandes
           suivent. Ils ont montré que l'investissement peut aider l'Afrique à
           grandir.
-          <br />
           <br />
           L'histoire d'Account's montre que même les petits changements peuvent
           avoir un grand impact. De plus en plus de gens osent investir, et
