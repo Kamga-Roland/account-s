@@ -60,14 +60,14 @@ const Values = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/collaboration.png"
+          src="/collaboration.svg"
           alt="collaboration"
-            className="w-[80%] s2elf-center h-auto mr-[10%] border-r-2 rounded-3xl object-contain"
+          className="w-[80%] h-auto self-center rounded-3xl object-contain"
         />
       </motion.div>
       <motion.div
         variants={fadeIn('right', 'linear', 0.2, 1)}
-        className="flex-[0.95] mt-6 mb-10 flex justify-center flex-col"
+        className="flex-[0.95] flex justify-center flex-col"
       >
         <TitleText title={<>Collaboration :</>} />
         <div className="mt-[20px] text-justify text-[18px]">
