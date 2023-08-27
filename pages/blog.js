@@ -1,4 +1,4 @@
-import { Navbar } from '../components';
+import { Navbar, Footer } from '../components';
 import styles from '../styles';
 
 const Blog = () => (
@@ -10,10 +10,11 @@ const Blog = () => (
           Aucune publication disponible.
         </div>
         <div className={`${styles.paddings}`}>
-          <img src="/blog.svg" className="mt-2 mx-auto px-6 items-center justify-center w-25 h-25 " />
+          <img src="/blog.svg" className="mt-2 mx-auto px-6 items-center justify-center w-40 " />
         </div>
       </div>
     </section>
+    <Footer />
   </div>
 );
 
