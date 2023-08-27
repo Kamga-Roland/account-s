@@ -27,8 +27,8 @@ const Footer = () => (
       <div className="w-1/6 hidden lg:block items-center justify-center flex-wrap">
         <h2 className="font-bold text-white mb-3">Notre solution</h2>
         <p className="text-white opacity-40">
-          <a className="cursor-pointer hover:text-pink-500" href="/#disc" scroll={false} as="Go to disc section">Collecte des données,</a><br /> <a className="cursor-pointer hover:text-pink-500" href="/#disc">Analyse dynamique,</a><br /> <a className="cursor-pointer hover:text-pink-500" href="/#disc">Production des rapports,</a><br />
-          <a className="cursor-pointer hover:text-pink-500" href="/#disc">Contrôle permanent,</a><br /> <a className="cursor-pointer hover:text-pink-500" href="/#disc">Pourquoi investir en Afrique ?</a>
+          <a className="cursor-pointer hover:text-pink-500" href="/#disc" scroll={false} as="Go to disc section">Collecte des données,</a><br /> <a className="cursor-pointer hover:text-pink-500" href="/">Analyse dynamique,</a><br /> <a className="cursor-pointer hover:text-pink-500" href="/">Production des rapports,</a><br />
+          <a className="cursor-pointer hover:text-pink-500" href="/">Contrôle permanent,</a><br /> <a className="cursor-pointer hover:text-pink-500" href="/">Pourquoi investir en Afrique ?</a>
         </p>
       </div>
       <div className="w-1/6 hidden lg:block items-center justify-center flex-wrap">
