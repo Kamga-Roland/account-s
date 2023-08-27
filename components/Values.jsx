@@ -60,7 +60,7 @@ const Values = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <img
-          src="/collaboration.svg"
+          src="/collaboration.png"
           alt="collaboration"
           className="w-[80%] h-auto self-center rounded-3xl object-contain"
         />
