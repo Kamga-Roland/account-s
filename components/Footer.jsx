@@ -46,7 +46,7 @@ const Footer = () => (
       <div className="w-2/6 hidden lg:block items-center justify-center flex-wrap">
         <h2 className="font-bold text-white mb-3">Nos Services</h2>
         <p className="text-white opacity-40">
-          <a className="cursor-pointer hover:text-pink-500"" href="/services">Recherche et gestion des talents</a>
+          <a className="cursor-pointer hover:text-pink-500" href="/services">Recherche et gestion des talents</a>
           <br /><a className="cursor-pointer hover:text-pink-500" href="/services">Gestion à distance et supervision</a> 
           <br /><a className="cursor-pointer hover:text-pink-500" href="/services">Networking et facilitation des relations</a>
           <br /><a className="cursor-pointer hover:text-pink-500" href="/services">Gestion financière</a>
