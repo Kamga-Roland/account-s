@@ -18,7 +18,7 @@ const Navbar = () => {
               <a className="cursor-pointer"
                  href="/"
               >
-                <img src="/logo.png" alt="Logo" className="h-30 w-44 mr-10 " />
+                <img src="/Logo.svg" alt="Logo" className="h-30 w-44 mr-10 " />
               </a>
             <ul className="hidden lg:flex space-x-6 px-auto lg:space-x-10">
               <li>
