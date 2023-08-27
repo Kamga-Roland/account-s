@@ -64,7 +64,9 @@ const Footer = () => (
           <img src="/ea2.png" alt="mbc" className="w-20 h-20" />
           <img src="/ea4.png" alt="nadosso" className="w-20 h-20" />
         </div>
-        <img src="/ea3.png" alt="AFROPN" className="w-40 h-20 my-5" />
+        <div className="w-50 h-30 my-5">
+          <img src="/ea3.png" alt="AFROPN" className="object-contain" />
+        </div>
       </div>
     </div>
     <div className="md:flex items-center text-center gap-8 justify-center mt-10">
