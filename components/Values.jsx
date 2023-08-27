@@ -62,7 +62,7 @@ const Values = () => (
         <img
           src="/collaboration.png"
           alt="collaboration"
-          className="w-[70%] lg:w-[60%] self-center lg:ml-20 h-auto rounded-3xl object-contain"
+            className="w-[100%] self-center h-auto border-r-2 rounded-3xl object-contain"
         />
       </motion.div>
       <motion.div
