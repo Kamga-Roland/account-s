@@ -19,7 +19,8 @@ const Navbar = () => {
                  href="/"
               >
                 <img src="/logo.png" alt="Logo" className="h-30 w-44 mr-10 " />
-              </a>            <ul className="hidden lg:flex space-x-6 px-auto lg:space-x-10">
+              </a>
+            <ul className="hidden lg:flex space-x-6 px-auto lg:space-x-10">
               <li>
                 <a
                   className="hover:border-b-4 pb-[18px] text-[#210080] font-bold hover:border-b-pink-500 hover:text-pink-500 "
