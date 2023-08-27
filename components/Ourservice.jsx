@@ -89,7 +89,7 @@ const Ourservice = () => (
           <h2 className="text-[#6a79ff]">Description :</h2>
           <p className="text-justify">
             Mise en œuvre d'une solution novatrice pour permettre aux
-            entrepreneurs établis à l'étranger de gérer leurs entreprises à
+            entrepreneurs établis à l'étranger, de gérer leurs entreprises à
             distance avec efficacité. Cette solution totalement numérique, offre
             une surveillance sécurisée et fiable de l'évolution de l'activité,
             24h/24.
