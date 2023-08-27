@@ -89,7 +89,7 @@ const Footer = () => (
           <a href="https://wa.me/+33635757498">
             <FaWhatsapp className="w-6 h-6 fill-white" />
           </a>
-          <a href="mailto:Acc.agencycameroun@gmail.com">
+          <a href="mailto:Contact@accounts-diaspo.com">
             <FaEnvelope className="w-6 h-6 fill-white" />
           </a>
         </div>
