@@ -21,7 +21,7 @@ const Readycontact = () => (
           href="/contact"
           className="px-6 py-1 m-9 text-center cursor-pointer bg-pink-500 text-white font-bold hover:bg-pink-400 rounded-2xl"
         >
-          cliquez ici
+          Cliquez ici
         </a>
       </div>
     </motion.div>
