@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "npm run build && next export -o _static"
+    "export": "npm run build && next export -o _static",
+    "deploy:clean": "rm -rf node_modules && rm -rf package-lock.json && rm -rf yarn.lock && npm install && npm run build && npm start"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
