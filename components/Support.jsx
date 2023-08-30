@@ -95,30 +95,30 @@ const Support = () => (
             <div className="flex-[0.5] lg:max-w-[600px] border-[2px] flex flex-col rounded-[32px] shadow-[#6a79ff] shadow-xl relative">
               <div className="h-[400px]">
                 <div className="h-[3/4]">
-                  <img src="/FR.png" alt="Rodney" className="w-[100%] h-80 object-contain" />
+                  <img src="/FB1.png" alt="Rodney" className="w-[100%] h-80 object-contain" />
                 </div>
                 <p className="h-[1/4] font-bold text-center">
-                  Rodney Fotsing <br /> Associé/ CEO
+                  Boris Foyet <br /> Associé/ Responsable <br />marketing & stratégique
                 </p>
               </div>
             </div>
             <div className=" lg:max-w-[600px] border-[2px] flex flex-col rounded-[32px] shadow-[#6a79ff] shadow-xl relative">
               <div className="h-[400px]">
                 <div className="h-[3/4]">
-                  <img src="/DJ.png" alt="Duny" className="w-[100%] h-80 object-contain" />
+                  <img src="/FS.png" alt="Duny" className="w-[100%] h-80 object-contain" />
                 </div>
                 <p className="h-[1/4] font-bold text-center">
-                  Jislain Duny <br /> Associé/ Responsable<br /> Activité
+                  Frank Steve <br /> Associé/ Administratif<br /> et financier
                 </p>
               </div>
             </div>
             <div className=" lg:max-w-[600px] border-[2px] flex flex-col rounded-[32px] shadow-[#6a79ff] shadow-xl relative">
               <div className="h-[400px]">
                 <div className="h-[3/4]">
-                  <img src="/DN.png" alt="Noubissi" className="w-100 h-80 object-contain" />
+                  <img src="/GK.png" alt="Noubissi" className="w-100 h-80 object-contain" />
                 </div>
                 <p className="h-[1/4] font-bold text-center">
-                  Noubissi Steve <br /> Associé/ Responsable<br /> Commerciale
+                  Gaetan Kentaze <br /> Rattahcé au pole activité
                 </p>
               </div>
             </div>
