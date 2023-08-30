@@ -44,14 +44,13 @@ const Support = () => (
           id="btn"
           type="submit"
           onClick={Discover}
-          className="text-center mx-[15%] lg:mx-[35%] py-2 px-5 m-10 rounded-3xl text-white bg-pink-500 text-[11px] md:text-[15px]"
+          className="text-center mx-[15%] lg:mx-[35%] py-2 px-5 m-10 font-bold rounded-3xl text-white bg-pink-500 text-[11px] md:text-[15px]"
         >
-          découvrez la team Account's
+          Découvrez la team Account's
         </button>
       </motion.div>
-      <motion.div
+      <div
         id="apercu"
-        variants={fadeIn('right', 'linear', 0.2, 1)}
         className="hidden justify-end gradient-05 mb-10 sm:p-8 p-4 relative"
       >
         <div className="text-center font-bold text-[18px] md:text-[25px] text-[#6a79ff] mb-20">
@@ -90,40 +89,42 @@ const Support = () => (
               </div>
             </div>
           </div>
+        </div>
+        <div>
           <div className="flex mb-10 justify-center lg:flex-row flex-col gap-8">
-            <div className=" lg:max-w-[600px] border-[2px] flex flex-col rounded-[32px] shadow-[#6a79ff] shadow-xl relative">
+            <div className="flex-[0.5] lg:max-w-[600px] border-[2px] flex flex-col rounded-[32px] shadow-[#6a79ff] shadow-xl relative">
               <div className="h-[400px]">
                 <div className="h-[3/4]">
-                  <img src="/FB1.png" alt="Rodney" className="w-[100%] h-80 object-contain" />
+                  <img src="/FR.png" alt="Rodney" className="w-[100%] h-80 object-contain" />
                 </div>
-                <p className="h-[1/4] font-bold text-[15px] text-center">
-                  Boris Foyet <br /> Associé/ Marketing <br />& Stratégique
+                <p className="h-[1/4] font-bold text-center">
+                  Rodney Fotsing <br /> Associé/ CEO
                 </p>
               </div>
             </div>
             <div className=" lg:max-w-[600px] border-[2px] flex flex-col rounded-[32px] shadow-[#6a79ff] shadow-xl relative">
               <div className="h-[400px]">
                 <div className="h-[3/4]">
-                  <img src="/FS.png" alt="Rodney" className="w-[100%] h-80 object-contain" />
+                  <img src="/DJ.png" alt="Duny" className="w-[100%] h-80 object-contain" />
                 </div>
-                <p className="h-[1/4] font-bold text-[15px] text-center">
-                  Frank Steve <br /> Associé/ Responsable <br />Administratif & Financier
+                <p className="h-[1/4] font-bold text-center">
+                  Jislain Duny <br /> Associé/ Responsable<br /> Activité
                 </p>
               </div>
             </div>
             <div className=" lg:max-w-[600px] border-[2px] flex flex-col rounded-[32px] shadow-[#6a79ff] shadow-xl relative">
               <div className="h-[400px]">
                 <div className="h-[3/4]">
-                  <img src="/GK.png" alt="Rodney" className="w-[100%] h-80 object-contain" />
+                  <img src="/DN.png" alt="Noubissi" className="w-100 h-80 object-contain" />
                 </div>
-                <p className="h-[1/4] font-bold text-[15px] text-center">
-                  Gaetan Kentaze <br /> Rattaché au pole Activité
+                <p className="h-[1/4] font-bold text-center">
+                  Noubissi Steve <br /> Associé/ Responsable<br /> Commerciale
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </motion.div>
+      </div>
     </motion.div>
   </section>
 );
