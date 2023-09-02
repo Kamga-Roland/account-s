@@ -25,7 +25,7 @@ const History = () => (
       <div className="flex mb-10 lg:flex-row flex-col-reverse gap-8">
         <motion.div
           variants={fadeIn('right', 'linear', 0.2, 1)}
-          className="flex-[0.95] flex justify-center flex-col"
+          className="flex-[0.95] flex text-left lg:justify-center flex-col"
         >
           <TitleText title={<><span className="text-[#6a79ff]">La merveilleuse</span> histoire de Account's</>} />
           <div className="mt-[20px] text-justify text-[18px]">
@@ -60,7 +60,7 @@ const History = () => (
         variants={fadeIn('right', 'linear', 0.2, 1)}
         className="hidden justify-center gradient-06"
       >
-        <div className="mt-[5px] text-justify text-[18px]">
+        <div className="mt-[5px] text-left lg:text-justify text-[18px]">
           Dans un monde où les rêves semblaient lointains, un groupe de jeunes
           Africains avait une idée : aider les gens de la diaspora à
           entreprendre en Afrique sans souci.
