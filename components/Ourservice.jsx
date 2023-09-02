@@ -26,7 +26,7 @@ const Ourservice = () => (
           />
           <div className="mt-[20px] text-[18px]">
             <h2 className="text-[#6a79ff]">Description :</h2>
-            <p className="text-justify">
+            <p className="text-left lg:text-justify">
               Analyse des besoins en compétences des clients, élaboration et
               mise en œuvre de stratégies de recrutement, suivi continu des
               nouveaux employés pendant 3 à 6 mois.
@@ -35,7 +35,7 @@ const Ourservice = () => (
           <br />
           <h2 className="text-[#6a79ff]">Défis :</h2>
           <div>
-           <p className="text-justify">
+           <p className="text-left lg:text-justify">
               Dépasser les problèmes d'incompétences et stabiliser la confiance des equipes locales, afin de garantir la fiabilité opérationnelle.
             </p>
           </div>
@@ -87,7 +87,7 @@ const Ourservice = () => (
         />
         <div className="mt-[20px] text-[18px]">
           <h2 className="text-[#6a79ff]">Description :</h2>
-          <p className="text-justify">
+          <p className="text-left lg:text-justify">
             Mise en œuvre d'une solution novatrice pour permettre aux
             entrepreneurs établis à l'étranger, de gérer leurs entreprises à
             distance avec efficacité. Cette solution totalement numérique, offre
@@ -98,7 +98,7 @@ const Ourservice = () => (
         <br />
         <h2 className="text-[#6a79ff]">Défis :</h2>
         <div>
-          <p className="text-justify">
+          <p className="text-left lg:text-justify">
             Assurer un suivi transparent des opérations effectuées au sein de
             leur entreprise au pays (problème de traçabilité).
           </p>
@@ -127,7 +127,7 @@ const Ourservice = () => (
         />
         <div className="mt-[20px] text-[18px]">
           <h2 className="text-[#6a79ff]">Description :</h2>
-          <p className="text-justify">
+          <p className="text-left lg:text-justify">
             Grâce à notre vaste réseau de partenaires locaux et internationaux,
             nous sommes là pour vous guider dans la quête de partenariats
             stratégiques. Notre objectif est de développer votre réseau
@@ -138,7 +138,7 @@ const Ourservice = () => (
         <br />
         <h2 className="text-[#6a79ff]">Défis :</h2>
         <div>
-          <p className="text-justify">
+          <p className="text-left lg:text-justify">
             Surmonter les problèmes de fiabilité des partenaires (fournisseurs,
             prestataires, etc.) et combler le manque d'informations concernant
             les opportunités et partenaires disponibles, que ce soit localement
@@ -190,7 +190,7 @@ const Ourservice = () => (
         />
         <div className="mt-[20px] text-[18px]">
           <h2 className="text-[#6a79ff]">Description :</h2>
-          <p className="text-justify">
+          <p className="text-left lg:text-justify">
             Notre soutien aux entrepreneurs englobe : l'amélioration de leur
             flux de trésorerie, la gestion de leur comptabilité, des conseils
             en gestion globale, ainsi que l'optimisation de leurs aspects
@@ -200,7 +200,7 @@ const Ourservice = () => (
         <br />
         <h2 className="text-[#6a79ff]">Défis :</h2>
         <div>
-          <p className="text-justify">
+          <p className="text-left lg:text-justify">
             Dépasser les problèmes résultant d'une gestion défaillante par les
             gestionnaires locaux (erreurs de gestion entraînant des difficultés
             financières) : fraudes, abus de biens sociaux, détournements,
@@ -231,7 +231,7 @@ const Ourservice = () => (
         />
         <div className="mt-[20px] text-[18px]">
           <h2 className="text-[#6a79ff]">Description :</h2>
-          <p className="text-justify">
+          <p className="text-left lg:text-justify">
             À travers des entretiens réguliers, notre équipe se familiarise avec
             vos idées d'investissement et vous guide tout au long du processus
             de concrétisation, passant de la simple notion à un projet solide.
@@ -242,7 +242,7 @@ const Ourservice = () => (
         </div>
         <br />
         <h2 className="text-[#6a79ff]">Défis :</h2>
-        <div className="text-justify">
+        <div className="text-left lg:text-justify">
           Surmonter les difficultés liées à l'évaluation de la faisabilité d'un
           projet dans le contexte local et trouver des moyens pour réduire les
           coûts associés à la création d'une société sur place.
@@ -292,7 +292,7 @@ const Ourservice = () => (
         />
         <div className="mt-[20px] text-[18px]">
           <h2 className="text-[#6a79ff]">Description :</h2>
-          <p className="text-justify">
+          <p className="text-left lg:text-justify">
             Permettez-nous de créer et mettre en œuvre vos plans marketing et
             stratégies de communication, en assurant également un suivi
             attentif.
@@ -300,7 +300,7 @@ const Ourservice = () => (
         </div>
         <br />
         <h2 className="text-[#6a79ff]">Défis :</h2>
-        <div className="text-justify">
+        <div className="text-left lg:text-justify">
           Surmonter les difficultés liées à une approche inefficace pour attirer
           des clients localement, améliorer la communication locale et résoudre
           les obstacles aux ventes via les réseaux sociaux.
