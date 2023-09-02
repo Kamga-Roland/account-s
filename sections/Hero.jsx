@@ -19,7 +19,7 @@ const Hero = () => (
         <TitleText
           title={<><span className="text-[#6a79ff]">Booster son business</span> au pays n'a jamais été aussi simple !</>}
         />
-        <div className="mt-[20px] text-justify text-[18px]">
+        <div className="mt-[20px] text-left lg:text-justify text-[18px]">
           Entrepreneurs de la diaspora, donnez une nouvelle dimension à votre
           business. Gagner en rentabilité grâce à la solution Account's, l'outil
           de contrôle et de supervision qui répond à votre besoin de confiance
