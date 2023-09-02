@@ -23,7 +23,7 @@ const Values = () => (
           className="flex-[0.95] flex justify-center flex-col"
         >
           <TitleText title={<>Confiance :</>} />
-          <div className="mt-[20px] text-justify text-[18px]">
+          <div className="mt-[20px] text-left lg:text-justify text-[18px]">
             La confiance est au cœur de nos équipes chez Account's. Elle crée
             une synergie fluide, permettant une collaboration harmonieuse et
             productive. Cette confiance s'étend également à nos clients, formant
@@ -70,7 +70,7 @@ const Values = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TitleText title={<>Collaboration :</>} />
-        <div className="mt-[20px] text-justify text-[18px]">
+        <div className="mt-[20px] text-left lg:text-justify text-[18px]">
           Chez Account's, la collaboration est l'épicentre de notre succès.
           Notre équipe diversifiée fusionne ses compétences pour créer des
           solutions uniques. La communication transparente et la confiance
@@ -91,7 +91,7 @@ const Values = () => (
         className="flex-[0.95] mb-10 flex justify-center flex-col"
       >
         <TitleText title={<>Réalité :</>} />
-        <div className="mt-[20px] text-justify text-[18px]">
+        <div className="mt-[20px] text-left lg:text-justify text-[18px]">
           La réalité chez Account's est le fruit d'un engagement sans faille
           envers nos valeurs. Chaque jour, nous nous efforçons de créer des
           solutions concrètes qui répondent aux besoins de nos clients. Notre
@@ -136,7 +136,7 @@ const Values = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TitleText title={<>Exactitude :</>} />
-        <div className="mt-[20px] text-justify text-[18px]">
+        <div className="mt-[20px] text-left lg:text-justify text-[18px]">
           L'exactitude est une vertu incontournable chez Account's. Nous avons
           à cœur de garantir une précision méticuleuse dans chaque aspect de
           notre travail. De la gestion des données à la mise en œuvre de nos
