@@ -17,7 +17,7 @@ const Explore = () => (
       <div className="text-center mb-20">
         <TitleText
           title={
-            <><span className="text-justify text-[#6a79ff]">Découvrez notre solution</span>, pour obtenir au quotidien une visibilité claire de son activité au pays, <span className="text-[#6A79FF]">sans faire d'effort.</span> </>
+            <><span className="text-left lg:text-justify text-[#6a79ff]">Découvrez notre solution</span>, pour obtenir au quotidien une visibilité claire de son activité au pays, <span className="text-[#6A79FF]">sans faire d'effort.</span> </>
           }
         />
       </div>
@@ -44,7 +44,7 @@ const Explore = () => (
             <h6 className="font-bold sm:text-[21px] text-[16px] mb-5 sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
               <span className="px-2 rounded-[50%] bg-[#210080] text-white">1</span> Collecte des données sur le terrain.
             </h6>
-            <p className="text-justify">
+            <p className="text-left lg:text-justify">
               Notre outil collecte de manière automatique et complètement
               sécurisée les traces des opérations effectuées au sein de votre
               entité par vos collaborateurs.
@@ -62,7 +62,7 @@ const Explore = () => (
             <h6 className="font-bold sm:text-[21px] mb-5 text-[16px] sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
               <span className="px-2 rounded-[50%] bg-[#210080] text-white">2</span> Analyse dynamique
             </h6>
-            <p className="text-justify">
+            <p className="text-left lg:text-justify">
               Notre solution à l'aide de sa composante IA, traite les données
               collectées sur le terrain pour en faire une information utile pour
               le processus de prise de décision.
@@ -106,7 +106,7 @@ const Explore = () => (
             <h6 className="font-bold sm:text-[21px] text-[16px] mb-5 sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
               <span className="px-2 rounded-[50%] bg-[#210080] text-white">3</span> Production de rapports et tableaux de bords
             </h6>
-            <p className="text-justify">
+            <p className="text-left lg:text-justify">
               Les informations obtenues à l'issu du processus, sont organisées
               sous forme de graphes, de chiffres et complétées par des
               commentaires et avis pertinents.
@@ -124,7 +124,7 @@ const Explore = () => (
             <h6 className="font-bold sm:text-[21px] mb-5 text-[16px] sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
               <span className="px-2 rounded-[50%] bg-[#210080] text-white">4</span> Contrôle permanent et alerte
             </h6>
-            <p className="text-justify">
+            <p className="text-left lg:text-justify">
               Nos équipes se déplacent régulièrement sur le terrain pour auditer
               les informations mises à votre disposition.
             </p>
