@@ -21,7 +21,7 @@ const Hero = () => (
         />
         <div className="mt-[20px] text-left lg:text-justify text-[18px]">
           Entrepreneurs de la diaspora, donnez une nouvelle dimension à votre
-          business. Gagner en rentabilité grâce à la solution Account's, l'outil
+          business. Gagnez en rentabilité grâce à la solution Account's, l'outil
           de contrôle et de supervision qui répond à votre besoin de confiance
           et de traçabilité au pays.
         </div>
