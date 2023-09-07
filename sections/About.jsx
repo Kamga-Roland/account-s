@@ -19,9 +19,9 @@ const Hero = () => (
       <div
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <TitleText title={<>Plus besoin de <span className="text-[#6a79ff]">laisser un proche</span> gérer vos affaires au pays.</>} />
-        <div className="mt-[20px] text-left lg:text-justify text-[18px]">
-          Account's vous accompagne dans la gestion de votre business à distance, grâce à ses équipes
+        <TitleText title={<>Plus besoin de <span className="text-[#6a79ff]">Laisser un Proche</span> gérer vos Affaires au pays.</>} />
+        <div className="mt-[20px] text-justify text-[18px]">
+          Account's vous accompagne dans la gestion de votre business à distance , grâce à ses équipes
           compétentes, son réseau de partenaires locaux et internationaux et sa solution 100% digitalisée,
           fiable et complétement sécurisée.
         </div>
