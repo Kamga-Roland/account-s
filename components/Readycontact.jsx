@@ -5,7 +5,7 @@ const Readycontact = () => (
   <div
     className={`${styles.innerWidth} my-20 mx-auto text-center`}
   >
-    <div variants={zoomIn(0.5, 2)} className="p-6">
+    <div>
       <TitleText
         title={<>Prêt à insuffler une <span className="text-[#6a79ff]">nouvelle énergie</span> à votre business ?</>}
       />
@@ -15,7 +15,7 @@ const Readycontact = () => (
           href="/contact"
           className="px-6 py-1 m-9 text-center cursor-pointer bg-pink-500 text-white font-bold hover:bg-pink-400 rounded-2xl"
         >
-          Cliquez ici
+          cliquez ici
         </a>
       </div>
     </div>
