@@ -1,8 +1,5 @@
 
-import { motion } from 'framer-motion';
-
 import styles from '../styles';
-import { staggerContainer, fadeIn } from '../utils/motion';
 import { TitleText } from '../components';
 
 const showMore = () => {
@@ -47,15 +44,10 @@ const showMore4 = () => {
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
-    <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+    <div
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
-      <motion.div
-        variants={fadeIn('right', 'linear', 0.2, 1)}
+      <div
         className="flex-[0.95] mb-10 flex justify-center flex-col"
       >
         <TitleText
@@ -179,9 +171,9 @@ const WhatsNew = () => (
             L'investissement en Afrique ne se limite pas aux profits. Il offre également une chance de créer un impact positif en stimulant l'emploi, en soutenant le développement local et en contribuant à des initiatives durables qui améliorent la qualité de vie des communautés africaines.
           </p>
         </div>
-      </motion.div>
+      </div>
 
-      <motion.div
+      <div
         variants={fadeIn('left', 'linear', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
@@ -190,8 +182,8 @@ const WhatsNew = () => (
           alt="resource humaine"
           className="w-[90%] h-auto rounded-3xl object-contain"
         />
-      </motion.div>
-    </motion.div>
+      </div>
+    </div>
   </section>
 );
 
