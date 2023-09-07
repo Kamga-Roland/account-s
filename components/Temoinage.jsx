@@ -1,16 +1,10 @@
-import { motion } from 'framer-motion';
 
 import { TitleText } from './CustomTexts';
 import styles from '../styles';
-import { staggerContainer, fadeIn } from '../utils/motion';
 
 const Temoinage = () => (
   <section className={`${styles.paddings} bg-white relative`}>
-    <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+    <div
       className={`${styles.innerWidth} mx-auto`}
     >
       <div className="text-center mb-20">
@@ -20,7 +14,7 @@ const Temoinage = () => (
           }
         />
       </div>
-      <motion.div
+      <div
         className="flex mb-10 lg:flex-row flex-col gap-8"
         variants={fadeIn('right', 'linear', 0.2, 1)}
       >
@@ -94,8 +88,8 @@ const Temoinage = () => (
             </div>
           </div>
         </div>
-      </motion.div>
-    </motion.div>
+      </div>
+    </div>
   </section>
 );
 
