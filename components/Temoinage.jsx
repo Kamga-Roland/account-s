@@ -1,4 +1,3 @@
-
 import { TitleText } from './CustomTexts';
 import styles from '../styles';
 
@@ -10,17 +9,16 @@ const Temoinage = () => (
       <div className="text-center mb-20">
         <TitleText
           title={
-            <><span className="text-[#6a79ff]">Plusieurs entrepreneurs de la diaspora</span>, nous font déjà confiance !</>
+            <><span className="text-[#6a79ff]">Plusieurs entrepreneurs de la diaspora</span>, Nous font déjà Confiance !</>
           }
         />
       </div>
       <div
         className="flex mb-10 lg:flex-row flex-col gap-8"
-        variants={fadeIn('right', 'linear', 0.2, 1)}
       >
         <div>
           <div className="flex mb-10 lg:flex-row flex-col gap-8">
-            <div className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col gradient-051 sm:p-8 p-4 rounded-[32px] border-[1px] border-white shadow-[#6a79ff] shadow-md relative">
+            <div className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col gradient-051 sm:p-8 p-4 rounded-[32px] border-[1px] border-white shadow-[#6a79ff] shadow-xl relative">
               <div className="temoinage-gradient" />
               <div>
                 <h6 className="font-bold sm:text-[21px] mb-5 text-[16px] sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
@@ -36,7 +34,7 @@ const Temoinage = () => (
                 </p>
               </div>
             </div>
-            <div className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col gradient-051 sm:p-8 p-4 rounded-[32px] border-[1px] border-white shadow-md shadow-[#6a79ff] relative">
+            <div className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col gradient-051 sm:p-8 p-4 rounded-[32px] border-[1px] border-white shadow-xl shadow-[#6a79ff] relative">
               <div className="temoinage-gradient" />
               <div>
                 <h6 className="font-bold sm:text-[21px] mb-5 text-[16px] sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
@@ -54,7 +52,7 @@ const Temoinage = () => (
             </div>
           </div>
           <div className="flex mb-10 lg:flex-row flex-col gap-8">
-            <div className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col gradient-051 sm:p-8 p-4 rounded-[32px] border-[1px] border-white shadow-[#6a79ff] shadow-md relative">
+            <div className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col gradient-051 sm:p-8 p-4 rounded-[32px] border-[1px] border-white shadow-[#6a79ff] shadow-xl relative">
               <div className="temoinage-gradient" />
               <div>
                 <h6 className="font-bold sm:text-[21px] mb-5 text-[16px] sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
@@ -70,7 +68,7 @@ const Temoinage = () => (
                 </p>
               </div>
             </div>
-            <div className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col gradient-051 sm:p-8 p-4 rounded-[32px] border-[1px] border-white shadow-[#6a79ff] shadow-md relative">
+            <div className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col gradient-051 sm:p-8 p-4 rounded-[32px] border-[1px] border-white shadow-[#6a79ff] shadow-xl relative">
               <div className="temoinage-gradient" />
               <div>
                 <h6 className="font-bold sm:text-[21px] mb-5 text-[16px] sm:leading-[40.32px] leading-[36.32px] text-[#6a79ff]">
