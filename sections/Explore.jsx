@@ -1,17 +1,10 @@
 
-import { motion } from 'framer-motion';
-
 import styles from '../styles';
 import { TitleText } from '../components/CustomTexts';
-import { staggerContainer, fadeIn } from '../utils/motion';
 
 const Explore = () => (
   <section className={`${styles.paddings} bg-white relative z-10`}>
-    <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+    <div
       className={`${styles.innerWidth} mx-auto`}
     >
       <div className="text-center mb-20">
@@ -22,8 +15,7 @@ const Explore = () => (
         />
       </div>
       <div className="flex mb-10 pt-10 lg:flex-row flex-col gap-8">
-        <motion.div
-          variants={fadeIn('right', 'tween', 0.2, 1)}
+        <div
           className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col w-50 h-40 sm:p-8 p-4 relative"
         >
           <div className="bg-white" />
@@ -34,9 +26,8 @@ const Explore = () => (
               className="object-contain md:pl-[50%] w-50 h-40"
             />
           </div>
-        </motion.div>
-        <motion.div
-          variants={fadeIn('left', 'tween', 0.2, 1)}
+        </div>
+        <div
           className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col w-50 h-40 sm:p-8 p-4 relative"
         >
           <div className="bg-white" />
@@ -50,11 +41,10 @@ const Explore = () => (
               entité par vos collaborateurs.
             </p>
           </div>
-        </motion.div>
+        </div>
       </div>
       <div className="flex mb-10 lg:flex-row flex-col-reverse gap-8">
-        <motion.div
-          variants={fadeIn('right', 'tween', 0.2, 1)}
+        <div
           className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col w-50 h-40 sm:p-8 p-4 relative"
         >
           <div className="bg-white" />
@@ -68,9 +58,8 @@ const Explore = () => (
               le processus de prise de décision.
             </p>
           </div>
-        </motion.div>
-        <motion.div
-          variants={fadeIn('left', 'tween', 0.2, 1)}
+        </div>
+        <div
           className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col w-50 h-40 sm:p-8 p-4 relative"
         >
           <div className="bg-white" />
@@ -81,11 +70,10 @@ const Explore = () => (
               className="object-contain w-50 h-40"
             />
           </div>
-        </motion.div>
+        </div>
       </div>
       <div className="flex mb-10 pt-10 lg:flex-row flex-col gap-8">
-        <motion.div
-          variants={fadeIn('right', 'tween', 0.2, 1)}
+        <div
           className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col w-50 h-40 sm:p-8 p-4 relative"
         >
           <div className="bg-white" />
@@ -96,9 +84,8 @@ const Explore = () => (
               className="object-contain md:pl-[50%] w-50 h-40"
             />
           </div>
-        </motion.div>
-        <motion.div
-          variants={fadeIn('left', 'tween', 0.2, 1)}
+        </div>
+        <div
           className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col w-50 h-40 sm:p-8 p-4 relative"
         >
           <div className="bg-white" />
@@ -112,11 +99,10 @@ const Explore = () => (
               commentaires et avis pertinents.
             </p>
           </div>
-        </motion.div>
+        </div>
       </div>
       <div className="flex mb-10 lg:flex-row flex-col-reverse gap-8">
-        <motion.div
-          variants={fadeIn('right', 'tween', 0.2, 1)}
+        <div
           className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col w-50 h-40 sm:p-8 p-4 relative"
         >
           <div className="bg-white" />
@@ -129,9 +115,8 @@ const Explore = () => (
               les informations mises à votre disposition.
             </p>
           </div>
-        </motion.div>
-        <motion.div
-          variants={fadeIn('left', 'tween', 0.2, 1)}
+        </div>
+        <div
           className="flex-[0.5] lg:max-w-[600px] flex justify-end flex-col w-50 h-40 sm:p-8 p-4 relative"
         >
           <div className="bg-white" />
@@ -142,9 +127,9 @@ const Explore = () => (
               className="object-contain w-50 h-40"
             />
           </div>
-        </motion.div>
+        </div>
       </div>
-    </motion.div>
+    </div>
   </section>
 );
 
