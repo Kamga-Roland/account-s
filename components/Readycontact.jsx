@@ -1,17 +1,11 @@
-import { motion } from 'framer-motion';
 import { TitleText } from './CustomTexts';
-import { staggerContainer, zoomIn } from '../utils/motion';
 import styles from '../styles';
 
 const Readycontact = () => (
-  <motion.div
-    variants={staggerContainer}
-    initial="hidden"
-    whileInView="show"
-    viewport={{ once: false, amount: 0.25 }}
+  <div
     className={`${styles.innerWidth} my-20 mx-auto text-center`}
   >
-    <motion.div variants={zoomIn(0.5, 2)} className="p-6">
+    <div variants={zoomIn(0.5, 2)} className="p-6">
       <TitleText
         title={<>Prêt à insuffler une <span className="text-[#6a79ff]">nouvelle énergie</span> à votre business ?</>}
       />
@@ -24,8 +18,8 @@ const Readycontact = () => (
           Cliquez ici
         </a>
       </div>
-    </motion.div>
-  </motion.div>
+    </div>
+  </div>
 );
 
 export default Readycontact;
