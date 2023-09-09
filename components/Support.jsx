@@ -64,7 +64,7 @@ const Support = () => (
                   <img src="/FR.png" alt="Rodney" className="w-[100%] h-80 object-contain" />
                 </div>
                 <p className="h-[1/4] font-bold text-center">
-                  Rodney Fotsing <br /> Associé/ CEO
+                  <span class="text-[#6a79ff]">Rodney Fotsing</span> <br /> Associé/ CEO
                 </p>
               </div>
             </div>
@@ -74,7 +74,7 @@ const Support = () => (
                   <img src="/DJ.png" alt="Duny" className="w-[100%] h-80 object-contain" />
                 </div>
                 <p className="h-[1/4] font-bold text-center">
-                  Jislain Duny <br /> Associé/ Responsable<br /> Activité
+                  <span class="text-[#6a79ff]">Jislain Duny</span> <br /> Associé/ Responsable<br /> Activité
                 </p>
               </div>
             </div>
@@ -84,7 +84,7 @@ const Support = () => (
                   <img src="/DN.png" alt="Noubissi" className="w-100 h-80 object-contain" />
                 </div>
                 <p className="h-[1/4] font-bold text-center">
-                  Noubissi Steve <br /> Associé/ Responsable<br /> Commerciale
+                  <span class="text-[#6a79ff]">Noubissi Steve</span> <br /> Associé/ Responsable<br /> Commerciale
                 </p>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Support = () => (
                   <img src="/FB1.png" alt="Rodney" className="w-[100%] h-80 object-contain" />
                 </div>
                 <p className="h-[1/4] font-bold text-center">
-                  Boris Foyet <br /> Associé/ Responsable <br />marketing & stratégique
+                  <span class="text-[#6a79ff]">Boris Foyet</span> <br /> Associé/ Responsable <br />marketing stratégique
                 </p>
               </div>
             </div>
@@ -108,7 +108,7 @@ const Support = () => (
                   <img src="/FS.png" alt="Duny" className="w-[100%] h-80 object-contain" />
                 </div>
                 <p className="h-[1/4] font-bold text-center">
-                  Frank Steve <br /> Associé/ Administratif<br /> et financier
+                  <span class="text-[#6a79ff]">Fotso Steve</span> <br /> Associé/ Administratif<br /> et financier
                 </p>
               </div>
             </div>
@@ -118,7 +118,7 @@ const Support = () => (
                   <img src="/GK.png" alt="Noubissi" className="w-100 h-80 object-contain" />
                 </div>
                 <p className="h-[1/4] font-bold text-center">
-                  Gaetan Kentaze <br /> Rattahcé au pole activité
+                  <span class="text-[#6a79ff]">Gaetan Keutaze</span> <br /> Rattaché au pole activité
                 </p>
               </div>
             </div>
